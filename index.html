@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>ToDoList</title>
+    <style>
+        .completed {
+            text-decoration: line-through;
+        }
+
+        .highlight-even {
+            background-color: #f2f2f2;
+        }
+
+        .highlight-odd {
+            background-color: #d9d9d9;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>ToDoList</h1>
+
+    <input id="task-input" type="text" placeholder="Enter task">
+    <button id="add-task-btn">Add Task</button>
+
+    <ul id="task-list">
+    </ul>
+
+    <button id="highlight-even-btn">Highlight Even</button>
+    <button id="highlight-odd-btn">Highlight Odd</button>
+    <button id="delete-last-btn">Delete Last</button>
+    <button id="delete-first-btn">Delete First</button>
+    <button id="complete-btn">Complete</button>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
+
+<script src="index.js"></script>
